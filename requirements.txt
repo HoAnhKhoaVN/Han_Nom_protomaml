@@ -1,0 +1,6 @@
+pytorch-lightning
+torch
+numpy
+tensorboard
+pillow
+torchvision
