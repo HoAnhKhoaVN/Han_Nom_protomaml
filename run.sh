@@ -1,6 +1,6 @@
 python run.py \
         --epoch 1 \
-        --root '../../Dataset/demo_ds' \
+        --root /content/dataset_han_nom \
         --imgsz 32 \
         --task_num 1 \
         --exp 'test_exp' \
@@ -12,6 +12,3 @@ python run.py \
         --meta_lr 0.1\
         --update_lr 1e-3 \
         --output_lr 0.1
-
-
-

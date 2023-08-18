@@ -14,6 +14,7 @@ from PIL import Image
 import os
 import numpy as np
 from typing import List, Text, Tuple
+from collections import defaultdict
 
 def split_batch(imgs, targets):
     support_imgs, query_imgs = imgs.chunk(2, dim=0)
